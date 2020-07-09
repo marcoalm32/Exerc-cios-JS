@@ -1,2 +1,2 @@
-# exercicio07
+# Exercicio 07
  Repositório de exercícios JS.
