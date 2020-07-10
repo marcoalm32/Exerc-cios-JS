@@ -1,0 +1,49 @@
+.quadro{
+    width: 214px;
+    height: 214px;
+    margin: 25px 1680px -100px 26px;
+    border: 1px solid #707070;
+    float: left;
+    
+}
+.numero{
+    margin: 70px 1781px 20px 97px;
+    width: 12px;
+    height: 24px;
+    font: 600 20px 'Open Sans';
+    text-align: left;
+    opacity: 1;
+}
+
+.subtrair, .somar{
+    background-color: #1AC3FF;
+    border-radius: 100%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    font: normal 21px 'Roboto';
+   
+}
+.subtrair{
+    margin: 40px 40px 40px 40px;
+    
+}
+.somar{
+    margin-left: 40px;
+}
+
+.zerar{
+    background-color: rgb(55, 207, 187);
+    float: right;
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    margin-right: 800px;
+    border-radius: 20px;
+    font: 600 12pt 'Open Sans';
+    color: white;
+}
+
+.zerar:hover{
+    background-color: rgb(64, 143, 207);
+}
