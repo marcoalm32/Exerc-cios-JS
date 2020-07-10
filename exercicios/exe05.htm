@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 05</title>
+    <style>
+
+        .quadro{
+                background-color: #DE7EEC;
+                width: 470px;
+                height: 470px;
+                margin: 69px 1387px 0px 63px;
+                border: 1px solid black;
+        }
+        .circulo{
+                background-color: #6D6D6D;
+                border-radius: 132px;
+                width: 264px;
+                height: 264px;
+                margin: -471px 1387px 539px 63px;
+                opacity: 1;
+                border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadro"></div>
+    <div class="circulo" onmouseover="mudarPosição()" onmouseout="sair()"></div>
+
+    <script>
+        var bola = document.getElementsByClassName("circulo")
+        function mudarPosição(){
+            
+
+            bola[0].style.backgroundColor="#363636"
+            bola[0].style.marginTop="-380px"
+            bola[0].style.marginLeft="155px"
+
+        }
+
+        function sair(){
+            bola[0].style.backgroundColor="#6D6D6D"
+            bola[0].style.marginTop="-471px"
+            bola[0].style.marginLeft="63px"
+        }
+    </script>
+</body>
+</html>
