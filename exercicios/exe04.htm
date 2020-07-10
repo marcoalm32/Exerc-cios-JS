@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 04</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+
+        .frase{
+            font-family: 'Open Sans', sans-serif;
+            width: 313px;
+            height: 23px;
+            margin: 68px 1577px 30px 30px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .botao{
+               background-color: #1AA9DC;
+               margin: 19px 1574px 909px 26px;
+               font: medium 14px roboto;
+               width: 320px;
+               height: 48px;
+               border-radius: 20px;
+               color: white;
+
+            }
+        
+    </style>
+</head>
+<body>
+    <div class="frase">Vovô Marquinhos</div>
+    <input class="botao" type="button" value="CLICK PARA MUDAR A FRASE" onclick="mudar()" onmouseout="sair()">
+
+    <script>
+
+        var frase = document.getElementsByClassName('frase')
+        function mudar(){
+           
+            frase[0].innerHTML = "Oposto do Constantine"
+            
+        }
+
+        function sair(){
+            frase[0].innerHTML = "Vovô Marquinhos"
+        }
+
+    </script>
+</body>
+</html>
